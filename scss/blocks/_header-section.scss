@@ -1,0 +1,40 @@
+.header-section {
+  padding-top: 20px;
+  padding-left: 250px;
+  padding-right: 270px;
+  padding-bottom: 157px;
+  background-image: url(../../img/site-header-img.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.header-section___content {
+  padding-top: 131px;
+  text-align: center;
+}
+
+.header-section__heading {
+  font-family: $font-family-lora;
+  font-weight: $font-weight;
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+.header-section__text {
+  font-family: $font-family-oxygen;
+  font-weight: $font-weight;
+  font-size: 17px;
+  color: rgba(255, 255, 255, 0.63);
+  margin-bottom: 31px;
+}
+
+.header-section__button {
+  text-decoration: none;
+  color: #fff;
+  padding: 12px 31px 12px 31px;
+  background-color: #DD783F;
+  border-radius: 3px;
+  text-transform: capitalize;
+}

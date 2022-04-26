@@ -1,0 +1,24 @@
+.nav-section {
+  background-color: $color-primary;
+  padding: 22px 0;
+  margin-bottom: 60px;
+}
+
+.nav-section__list {
+  @include list-unstyled;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-section__item {
+  margin: 0 auto;
+}
+
+.nav-section__item-link {
+  font-weight: $font-weight;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  color: #768088;
+}

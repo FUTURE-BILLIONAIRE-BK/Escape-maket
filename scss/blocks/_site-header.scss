@@ -1,0 +1,10 @@
+.site-header {
+  width: 100%;
+  max-width: 1440px;
+}
+
+.site-header__logo-link {
+  display: block;
+  text-decoration: none;
+  color: $color-primary;
+}

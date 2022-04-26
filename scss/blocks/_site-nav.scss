@@ -1,0 +1,17 @@
+.site-nav__list {
+  @include list-unstyled;
+  display: flex;
+}
+
+.site-nav__item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.site-nav__item-link {
+  font-family: $font-family-oxygen;
+  font-weight: $font-weight;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+}

@@ -1,0 +1,103 @@
+.posts-section {
+  color: #2E2E2E;
+}
+
+.posts-section__main-heading {
+  font-family: $font-family-oxygen;
+  font-weight: $font-weight;
+  font-size: 20px;
+  text-align: center;
+  color: #2E2E2E;
+}
+
+.posts-section__underline {
+  width: 188px;
+  height: 1px;
+  color: #DEDEDE;
+}
+
+.posts-section__list {
+  @include list-unstyled;
+  display: flex;
+  justify-content: center;
+}
+
+.posts-section__item {
+  max-width: 460px;
+  position: relative;
+}
+
+.posts-section__item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.posts-section__content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 20px 20px 20px 20px;
+  bottom: 0;
+  left: 0;
+}
+
+.posts-section__first-heading {
+  font-family: $font-family-lora;
+  font-weight: $font-weight;
+  font-size: 27px;
+  color:$color-primary;
+  margin-top: 140px;
+  margin-bottom: 6px;
+}
+
+.posts-section__first-desc {
+  font-family: $font-family-oxygen;
+  font-weight: $font-weight;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 10px;
+}
+
+.posts-section__second-heading {
+  font-family: $font-family-lora;
+  font-weight: $font-weight;
+  font-size: 27px;
+  color: $color-primary;
+  margin-top: 140px;
+  margin-bottom: 6px;
+}
+
+.posts-section__second-desc {
+  font-family: $font-family-oxygen;
+  font-weight: $font-weight;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 10px;
+}
+
+.posts-section__footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.posts-section__author-img {
+  margin-right: 10px;
+}
+
+.posts-section__author {
+  padding-bottom: -15px;
+  margin-right: 120px;
+}
+
+.posts-section__btn {
+  position: absolute;
+  padding: 6px 9px;
+  background-color: #DD783F;
+  font-weight:$font-weight;
+  font-size: 12px;
+  text-transform: uppercase;
+  color:$color-primary;
+  margin-bottom: 111px;
+  border-radius: 2px;
+}
